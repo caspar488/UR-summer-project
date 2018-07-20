@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+  
+{% block content %}
+
+
+    <header class="bg-image-full image-1"></header>
+
+    <!-- Content section -->
+    <section>
+      <div class="container">
+        <h1>Section Heading</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+      </div>
+    </section>
+
+    <!-- Image Section - set the background image for the header in the line below -->
+    <section class="bg-image-full image-2"></section>
+
+    <!-- Content section -->
+    <section>
+      <div class="container">
+        <h1>Section Heading</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark">
+      <div class="container">
+        <p class="text-center text-white">Copyright &copy; Your Website 2018</p>
+      </div>
+    </footer>
+    <style>
+    	.bg-image-full {
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+
+.image-1 {
+  background-image: url('https://unsplash.it/1900/1080?image=1076');
+  height: 400px;
+}
+
+.image-2 {
+  background-image: url('https://unsplash.it/1900/1080?image=1081');
+  height: 400px;
+    </style>
+  </body>
+{% endblock %}

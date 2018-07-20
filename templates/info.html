@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+  
+{% block content %}
+
+    <main class="container-fluid">
+    
+      <section class="jumbotron">
+      <div class="container">
+        <h1 class="display-3">Join us</h1>
+        <p class="lead">Some catchy slogan.</p>
+        <button href="#" class="btn btn-light">Get started</button>
+        </div>
+      </section>
+
+      <section class="row">
+          <div class="col-7 eastman"><!-- <img src="images/eastman.jpg"> --></div>
+
+          <div class="col-5 text-right text-col1">
+            <h2>people</h2>
+            <p>our employees are of high skills</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="col-5 text-left text-col2">
+          <h2>partnership</h2>
+          <p>our partners are around the world</p>
+        </div>
+        <div class="col-7 highfalls"></div>
+      </section>
+
+      <section class="row">
+        <div class="col-7 quad"></div>
+        <div class="col-5 text-right text-col3">
+          <h2>office</h2>
+          <p>our office in metropolitan</p>
+        </div>
+      </section>
+
+      <!-- Footer navigation -->
+      <footer class="bg-dark">
+      <div class="container">
+        <p class="text-center text-white">Copyright &copy; Your Website 2018</p>
+      </div>
+    </footer>
+      <style>
+      	.container-fluid{
+	padding:0px;
+}
+.jumbotron {
+	/*background-color:#4da6ff;*/
+	background:url('../static/images/gplay copy.png'),linear-gradient(to bottom right, #4da6ff,#ff4d4d);
+	margin-bottom:0px;
+	border-radius:0px;
+}
+.btn{
+	background-color:  teal;
+	border-color:teal;
+}
+.btn:hover{
+	background-color: red;
+	border-color: :red;
+	transition-duration:0.7s;
+	opacity: 0.7;
+}
+.text-col1{
+	padding:120px;
+	
+	background:url('../static/images/bg-pattern.png');
+	background-color:#FFE882;
+}
+.text-col2{
+	padding:120px;
+	
+	background:url('../static/images/bg-pattern.png');
+	background-color:#C3AFBC;
+}
+.text-col3{
+	padding:120px;
+	
+	background:url('../static/images/bg-pattern.png');
+	background-color:#9DBBAE;
+}
+
+h2 {
+	color:teal;
+}
+.lead{
+	opacity: 0.5;
+}
+.eastman{
+	background-image: url('../static/images/people.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:; 
+}
+.highfalls{
+	background-image: url('../static/images/partner.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:; 
+}
+.quad{
+	background-image: url('../static/images/office.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:; 
+}
+.footer{
+	padding-top:20px;
+	
+	background:url('../images/gplay.png');
+	background-color: #9DBBAE;
+}
+footer li a {
+	color:white;
+}
+
+
+
+      </style>
+    </main>
+  </body>
+</html>
+{% endblock %}

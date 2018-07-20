@@ -1,0 +1,50 @@
+
+
+.headline {
+  height: 50vh;
+  min-height: 300px;
+  background: url('images/1920400.jpg') center center no-repeat scroll;
+  background-size: cover;
+  font-family: 'Arvo', serif;
+}
+.headline h1{
+	padding-top:50px;
+	color:black;
+}
+.card {
+  height: 100%;
+}
+/*.container{
+	margin-top:50px;
+
+}*/
+
+.paragraph1{
+
+}
+.aboutlink{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.paragraph1 h2{
+	margin-bottom: 20px;
+
+}
+footer {
+	padding-bottom:10px;
+}
+
+.card3 {
+	border-image-repeat:no-repeat;
+}
+.content{
+		background:url('images/bg-pattern.png'),linear-gradient(to bottom right,#ffffff, #99ddff);
+		margin-bottom:0px;
+		border-radius:0px;
+		padding-bottom: 30px;
+		padding-top: 50px;
+}
+.imageins{
+	width:100px; 
+
+}
